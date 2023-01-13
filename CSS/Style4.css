@@ -1,0 +1,79 @@
+ body {
+     font-family: Arial;
+     padding: 10px;
+     background-image: url('../Images/covid19.jpeg');
+     background-size: cover;
+ }
+
+
+ h2 {
+     color: whitesmoke;
+     font-size: 40px;
+ }
+
+ .Moderna {
+     width: 250px;
+     height: 150px;
+ }
+
+ .johson {
+     width: 250px;
+     height: 150px;
+ }
+
+ .astrazeneca4 {
+     width: 250px;
+     height: 150px;
+ }
+
+ .pfizer {
+     width: 250px;
+     height: 150px;
+ }
+
+
+ .button {
+     background-color: dodgerblue;
+     margin-left: 10%;
+     cursor: pointer;
+     width: 100px;
+     height: 30px;
+     border: none;
+ }
+
+ .button:hover {
+     background-color: #ddd;
+     color: red;
+
+ }
+
+ .color {
+     font-size: 20px;
+     color: aliceblue;
+ }
+
+ .footer {
+     padding: 10px 0px 120px 0px;
+     background-color: currentColor;
+     margin-top: 60px;
+     border-radius: 5px;
+
+ }
+
+ .footerleft1 {
+     float: left;
+     margin: 30px 12px 0px 10px;
+ }
+
+ .footerleft {
+     float: left;
+     color: aliceblue;
+     padding: 15px 15px 10px 10px;
+ }
+
+
+ .footerright {
+     float: right;
+     color: aliceblue;
+     padding: 15px 15px 10px 10px;
+ }

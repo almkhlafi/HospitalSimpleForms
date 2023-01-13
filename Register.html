@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Registeration
+    </title>
+    <link href="CSS/Style2.css" href="Style.css" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <h2>
+            <bold><b>AN APOINTMENT FORM</b>
+            </bold>
+        </h2>
+    </center>
+
+
+    <div class="container">
+        <form action="/action_page.php">
+            <br>
+            <label>Patient Name & SureName<br></label>
+            <input name="first_name" size="30" placeholder="First Name" type="text" required="required">
+
+            <br><br>
+
+
+            <label>Username<br></label>
+            <input name="user_name" placeholder="Username" size="30" class="form-control" type="text" required="required">
+
+
+            <br>
+            <label>Password<br></label>
+            <input name="user_password" placeholder="Password" size="30" class="form-control" type="password">
+            <br>
+
+            <label>Confirm Password<br></label>
+            <input name="confirm_password" size="30" placeholder="Confirm Password" type="password" required="required">
+
+            <br><br>
+            <lable>Your Email<br><input type="text" name="email" size="30" placeholder="Enter yor email"></lable>
+            <br>
+
+            <label>Contact No.<br></label>
+            <input placeholder="(+90)" class="form-control" size="30" type="text" required="required">
+
+            <br>
+            <br>
+            <laple>
+                <bold>Chose You Gander:</bold><br><input type="radio" checked="checked" name="sex" value="male">Male&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="sex" value="female">Female
+            </laple>
+            <hr>
+            <label>Department</label><br>
+            <div class="drop">
+                <select name="department" style="width: 200px; height:30px" ;>
+                    <option value="">Select your Department</option>
+                    <option>Heart Surgery</option>
+                    <option>Cardiothoracic surgery</option>
+                    <option>Abdominalsurgery</option>
+                    <option>Colon and anal surgery</option>
+                    <option>General Surgery</option>
+                    <option>Neurosurgery</option>
+                    <option>Oral and Maxillofacial Surgery</option>
+                    <option>Preventive Dentistry</option>
+                    <option>Oral and dental tissues</option>
+                    <option>general dental health</option>
+                    <option>Oral medicine</option>
+                    <option>periodontal disease</option>
+                    <option>Oral diseases</option>
+                </select>
+            </div>
+            <br>
+            <lable>
+                <laple>Enter Your Case...<br>
+                    <textarea name="comments" cols="30" rows="8" ;>Click To write in here......
+                        </textarea>
+                </laple>
+                <br><br><a><button class="button" type="Registration" onclick="document.location='Login.html'"> Registration</button></a>
+            </lable>
+            <br><br>
+        </form>
+    </div>
+
+    <footer class="footer" width="100%">
+
+        <img src="Images/hoss.png" class="footerleft1" width="60px" height="60px" float="right;">
+        <div class="footerleft">
+            <span>+900000000011</span><br><br>
+            <address>Dimofontos #5,Shop 3, Nicosia,</address><br>
+            <address> Cyprus, Dimofontos 5, Nicosia</address>
+        </div>
+        <div class="footerright">
+            <span>T.&nbsp; +357 26 84 84 84</span>&nbsp;<br>
+            <br><span>F.&nbsp;+357 26 84 83 00</span><br><span><br>
+                E.&nbsp;info&nbsp;@MericalHospital.com</span>
+        </div>
+        <h3 id="down"></h3>
+    </footer>
+    <center style="padding-bottom: 1px">
+        <span><small>Copyright <sup>&copy;</sup> 2021 All Rights Reserved</small>
+        </span>
+    </center>
+
+</body>
+
+</html>

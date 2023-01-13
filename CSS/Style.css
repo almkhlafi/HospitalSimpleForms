@@ -1,0 +1,155 @@
+  * {
+      box-sizing: border-box;
+  }
+
+  body {
+      font-family: Arial;
+      padding: 10px;
+      background-color: cadetblue;
+      background-image: url(transp.jpg);
+  }
+
+  .header {
+      padding: 30px;
+      text-align: center;
+      background: white;
+  }
+
+  .header h1 {
+      font-size: 50px;
+      color: #003f7f;
+  }
+
+  .p {
+      font-size: 20px;
+      color: #bf0000;
+  }
+
+  .navbar {
+      overflow: hidden;
+      background-color: #063f81;
+  }
+
+  .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+
+  .navbar a:hover {
+      background-color: #bf0000;
+      color: black;
+
+  }
+
+
+  .leftcolumn {
+      float: right;
+      width: 70%;
+      padding-left: 20px;
+  }
+
+
+  .rightcolumn {
+      float: left;
+      width: 30%;
+      background-color: #f1f1f1;
+      padding-left: 20px;
+  }
+
+  /* Fake image */
+  .spa2 {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+      margin-left: 30px;
+  }
+
+
+  .main {
+      background-color: white;
+      margin-left: 30px;
+      padding: 20px 20px 15px 20px;
+
+  }
+
+
+  .row:after {
+
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+
+  .footer {
+      padding: 10px 0px 120px 0px;
+      background-color: currentColor;
+      margin-top: 60px;
+      border-radius: 5px;
+
+  }
+
+  .footerleft1 {
+      float: left;
+      margin: 30px 12px 0px 10px;
+  }
+
+  .footerleft {
+      float: left;
+      color: aliceblue;
+      padding: 15px 15px 10px 10px;
+  }
+
+
+  .footerright {
+      float: right;
+      color: aliceblue;
+      padding: 15px 15px 10px 10px;
+  }
+
+  h2 {
+      color: #bf0000;
+  }
+
+  h3 {
+      font-size: 25px;
+  }
+
+  .heading {
+      font-size: 20px;
+      font-family: monospace;
+  }
+
+  .photolinks table img {
+
+      width: 100px;
+      height: 100px;
+      color: aqua;
+      border-radius: 50%;
+
+
+  }
+
+  td a:hover {
+      text-decoration: underline;
+      color: blue;
+      font-size: 18px;
+  }
+
+  td a:link {
+
+      text-decoration: none;
+  }
+
+
+
+  .center {
+
+      margin-right: auto;
+      margin-left: auto;
+  }

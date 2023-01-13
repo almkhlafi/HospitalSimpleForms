@@ -1,0 +1,75 @@
+     body {
+         font-family: Arial;
+         padding: 10px;
+         background-image: url("../Images/logbackground.jpg);
+background-size: cover;
+         }
+
+         .container {
+
+
+             border: solid gray 1px;
+             background: rgba(76, 75, 80, 0.7);
+             margin-left: 30%;
+             padding-left: 6.5%;
+             margin-right: 35%;
+             padding-right: 5%;
+             border-radius: 10px;
+             padding-bottom: 100px;
+         }
+
+
+         .footer {
+             padding: 10px 0px 120px 0px;
+             background-color: currentColor;
+             margin-top: 60px;
+             border-radius: 5px;
+
+         }
+
+         .footerleft1 {
+             float: left;
+             margin: 30px 12px 0px 10px;
+         }
+
+         .footerleft {
+             float: left;
+             color: aliceblue;
+             padding: 15px 15px 10px 10px;
+         }
+
+
+         .footerright {
+             float: right;
+             color: aliceblue;
+             padding: 15px 15px 10px 10px;
+         }
+
+         h2 {
+             color: #84cf00;
+         }
+
+         .logimage {
+             width: 200px;
+             height: 200px;
+             border-radius: 70%;
+
+         }
+
+         #fontcolor {
+             color: aliceblue;
+         }
+
+         .button {
+             background-color: dodgerblue;
+             cursor: pointer;
+             width: 200px;
+             height: 30px;
+             border: none;
+         }
+
+         .button:hover {
+             background-color: #ddd;
+             color: red;
+
+         }
